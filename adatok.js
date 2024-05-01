@@ -30,7 +30,7 @@ export const macskaLISTA=[
         ar:"22000Ft",
         szul_ev:"2024",
         szin:"szürke",
-        kep:"kepek/mainCore.jpg"
+        kep:"kepek/mainCore.webp"
     },
     {
         nev:"Perzsa Macska",
@@ -43,3 +43,5 @@ export const macskaLISTA=[
     
    
 ]
+
+export let kosarLista=[];

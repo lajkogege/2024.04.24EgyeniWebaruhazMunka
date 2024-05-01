@@ -1,0 +1,85 @@
+body{
+    background-color: #a79177;
+}
+
+header h1{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+article{
+    margin:30px;
+    background-color:#F66513; 
+    border-radius: 20px;
+}
+
+.kosarTabla{
+    margin-left: 20px;
+    color:white;
+    border-radius: 20px;
+    background-color: #F66513;
+}
+
+.tovabbiCikkek{
+    margin-left: 20px;
+}
+
+.bemutatkozo{
+    text-align: center;
+    color: white;
+}
+
+.carousel-inner{
+    padding-top: 20px;
+}
+
+.jaside{
+    margin-left: 20px;
+}
+
+.bevitel{
+    background-color:#F66513 ;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.asideElemek{
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #F66513;
+    border-radius: 20px;
+    margin-bottom: 20px;;
+}
+
+.fedezdFelgomb{
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.fedezdFelgomb a{
+    text-decoration: none;
+    color: #F66513;
+    font-weight: bolder;
+}
+
+aside asideElemek a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+
+.asideElemek a:hover{
+    color:#7a2d00;
+}
+
+#baside{
+    margin-right: 20px;
+}
