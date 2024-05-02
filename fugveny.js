@@ -37,7 +37,7 @@ export function kartyaOsszeallit(macskaLISTA) {
 
     macskaLISTA.forEach((macska) => {
         kartyaTxt += `
-        <div class="col-md-6" style="padding-top:30px; " >
+        <div class="col-md-4" style="padding-top:30px; " >
                 <div class="card mb-3" style="width: 300px;  background-color: #BB5528;">
                     <h2 style="color:white; padding:20px;">${macska.nev}</h2>
                     <img class="card-img-top" src="${macska.kep}" alt="Kártya kép" style="width:100%; height:200px; padding:10px; ">
@@ -45,7 +45,7 @@ export function kartyaOsszeallit(macskaLISTA) {
                         <h4 class="card-title"></h4>
                         <p class="card-text" style="color:white;">${macska.termekleiras}</p>
                         <p class="card-text" style="color:white;">Tulajdonságai:<br>Születési éve: ${macska.szul_ev}<br> Színe:${macska.szin}<br> Súlya: ${macska.suly}</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #F66513; border-color: #F66513">${macska.ar}</a>
+                        <a href="#" class="btn btn-primary" style="background-color: #F66513; border-color: #F66513">${macska.ar} Ft</a>
                         <a href="#" class="btn btn-primary" style="background-color: #F66513; border-color: #F66513" class=".kosarbaGomb">Kosárba</a>
                     </div>
                 </div>

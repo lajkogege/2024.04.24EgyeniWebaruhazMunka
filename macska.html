@@ -55,7 +55,7 @@
         </div>
       </nav>
 
-      <aside class="col-md-3">
+      <aside class="col-md-2">
         <form class="bevitel">
           <h3>Macskák szűrés ☰</h3>
           <div class="input-group">
@@ -80,23 +80,24 @@
             </div>
           </div>
 
-          <div class="rendezes">
+          <div>
             <label
               for="rendezesArak"
-              class="form-label"
-              style="margin-right: 10px; font-size: 20px"
-              >Rendezés ár szerint⬆️</label
+              class="form-labelRend"
+              style="margin-right: 10px; font-size: 20px">Rendezés</label
             >
-            <select id="rendezesArak" style="font-size: 18px">
+            <select class="rendezes" style="font-size: 18px">
               <option selected disabled>Válassz rendezést</option>
-              <option value="csokkeno" class="rendezes">Csökkenő árak⬇️</option>
-              <option value="novekvo" class="rendezes">Növekvő árak⬆️</option>
+              <option value="csokkeno" class="csokkeno">Csökkenő árak⬇️</option>
+              <option value="novekvo" class="novekvo">Növekvő árak⬆️</option>
+              <option value="csokkenoSuly" class="csokkeno">Csökkenés súly ⬇️</option>
+              <option value="novekvoSuly" class="novekvo">Növekvés súly⬆️</option>
             </select>
           </div>
         </form>
       </aside>
-      <article class="kartyaTarolo col-md-6 row" ></article>
-      <aside class="col-md-3">
+      <article class="kartyaTarolo col-md-8 row" ></article>
+      <aside class="col-md-2">
         <div>
           <div class="tablaTarolo"></div>
           <div class="asideElemek" style="margin-left: 20px;margin-top: 20px;">
