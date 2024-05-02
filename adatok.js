@@ -6,6 +6,7 @@ export const macskaLISTA=[
         ar:"12000Ft",
         szul_ev:"2022",
         szin:"fehér",
+        suly:"2kg",
         kep:"kepek/Birman.jpg"
     },
     {
@@ -14,22 +15,25 @@ export const macskaLISTA=[
         ar:"22000Ft",
         szul_ev:"2023",
         szin:"szürke",
-        kep:"kepek/DevonRex.jpg"
+        suly:"2kg",
+        kep:"kepek/DevonRex.jfif"
     },
     {
-        nev:"Devon Rex",
-        termekleiras:"Fedezd fel az egzotikus rövidszőrű macskák különleges világát! Bájos, pufók kis testük és selymes szőrzetük mindenkit elbűvöl. Válaszd ezt a különleges társat otthonodba, és élvezd az egyedülálló szépséget és jellemüket minden nap!",
-        ar:"22000Ft",
+        nev:"Rövidszörű",
+        termekleiras:"Ismerd meg a Rövidszörű macskákat! Lenyűgöző megjelenésű, barátságos és intelligens társak, ideálisak otthonodba. Válaszd ezt a különleges fajtát, és élvezd együtt a nagyszerű társaságot!",
+        ar:"42000Ft",
         szul_ev:"2024",
         szin:"barna",
+        suly:"2kg",
         kep:"kepek/Egzotikusrövidszörű.jpg"
     },
     {
         nev:"Main Core",
         termekleiras:"Ismerd meg a Maine Coon macskákat! Lenyűgöző megjelenésű, barátságos és intelligens társak, ideálisak otthonodba. Válaszd ezt a különleges fajtát, és élvezd együtt a nagyszerű társaságot!",
-        ar:"22000Ft",
+        ar:"72000Ft",
         szul_ev:"2024",
         szin:"szürke",
+        suly:"2kg",
         kep:"kepek/mainCore.webp"
     },
     {
@@ -38,6 +42,7 @@ export const macskaLISTA=[
         ar:"22000Ft",
         szul_ev:"2023",
         szin:"szürke",
+        suly:"2kg",
         kep:"kepek/PerzsaMacska.jpg"
     },
     

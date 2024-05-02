@@ -1,8 +1,9 @@
 
-export function szuresNevSzerint(lista, szurtSzoveg){
+export function szuresNevSzerint(lista, szuroSZoveg){
     const szurtLista = lista.filter(function(elem){
-        return elem.nev.includes(szurtSzoveg);
+        return elem.nev.includes(szuroSZoveg);
     });
+    console.log(szurtLista);
     return szurtLista;
 }
 

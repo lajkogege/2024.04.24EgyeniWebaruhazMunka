@@ -69,7 +69,7 @@ article{
     font-weight: bolder;
 }
 
-aside asideElemek a{
+.asideElemek a{
     text-decoration: none;
     color: white;
     margin-right: 20px;

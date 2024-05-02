@@ -20,6 +20,7 @@ export function init(lista) {
   nevSzuresEsemeny(lista);
   arSzuresEsemeny(lista);
   rendezesKattint(lista);
+  kosarGombKatt(lista)
 }
 
 /***szuresNevSzerint(adatokLista, szurtSzoveg)-->szurtLista**
@@ -96,6 +97,12 @@ $(document).on("click", ".kosarbaGomb", function() {
   console.log(kosarLista);
 });
 
-
-
+function kosarGombKatt(lista){
+  const kosarGomb = $(".kosarGomb");
+  kosarGomb.on("click", function(){
+    const termekIndex = kosarGomb.val();
+    kosarLista = lista[termekIndex];
+    return termekIndex;
+  })
+}
 
