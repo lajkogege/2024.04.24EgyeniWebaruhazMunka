@@ -3,6 +3,7 @@ import { kartyaOsszeallit, megjelenit, tablazatOsszealit } from "./fugveny.js";
 import { szuresNevSzerint } from "./adatSzures.js";
 import { rendezesCsokkeno, rendezesNovekvo } from "./adatRendez.js";
 import { kosarLista } from "./adatok.js";
+import { adatokListaba } from "./ujadat.js";
 
 /***kartyaOsszeallit(adatokLista, txt)-->txt**
 --Összeálitja a kárytákat
@@ -10,7 +11,10 @@ import { kosarLista } from "./adatok.js";
 --Megjeleniti a txt-be irt táblázatot, és kártyákat*/
 //tablazatOsszealit();
 
+
+
 init(macskaLISTA);
+adatokListaba(macskaLISTA);
 
 export function init(lista) {
   tablazatOsszealit(kosarLista);
