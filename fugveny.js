@@ -46,7 +46,7 @@ export function kartyaOsszeallit(macskaLISTA) {
                         <p class="card-text" style="color:white;">${macska.termekleiras}</p>
                         <p class="card-text" style="color:white;">Tulajdonságai:<br>Születési éve: ${macska.szul_ev}<br> Színe:${macska.szin}<br> Súlya: ${macska.suly}</p>
                         <a href="#" class="btn btn-primary" style="background-color: #F66513; border-color: #F66513">${macska.ar} Ft</a>
-                        <a href="#" class="btn btn-primary" style="background-color: #F66513; border-color: #F66513" class=".kosarbaGomb">Kosárba</a>
+                        <a href="#" class="btn btn-primary" style="background-color: #F66513; border-color: #F66513" class="kosarbaGomb">Kosárba</a>
                     </div>
                 </div>
             </div>`;

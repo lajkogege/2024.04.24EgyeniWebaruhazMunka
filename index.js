@@ -10,7 +10,9 @@ import { kosarLista } from "./adatok.js";
 --Megjeleniti a txt-be irt táblázatot, és kártyákat*/
 //tablazatOsszealit();
 
-init(macskaLISTA);
+$(document).ready(function() {
+  init(macskaLISTA);
+});
 
 export function init(lista) {
   tablazatOsszealit(kosarLista);
@@ -89,8 +91,20 @@ function rendeesKattintCsokkeno(lista){
   });
 }
 */
+function kosarGombKatt(){
+  const kosarbaGomb=$(".kosarbaGomb");
+  console.log(kosarbaGomb);
+  kosarbaGomb.on("click", function(){
+    const termekIndex = $(this).data("index");
 
-//cahtgpt
+    console.log(termekIndex);
+  })
+}
+
+
+
+
+/*//cahtgpt
 $(document).on("click", ".kosarbaGomb", function () {
   const index = $(this).data("index"); // az aktuális termék indexe
   const termek = macskaLISTA[index]; // az aktuális termék adatai
@@ -111,3 +125,4 @@ function kosarGombKatt(lista) {
     return termekIndex;
   });
 }
+*/
