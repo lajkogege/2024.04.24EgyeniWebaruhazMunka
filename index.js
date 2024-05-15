@@ -11,6 +11,10 @@ import { adatokListaba } from "./ujadat.js";
 --Megjeleniti a txt-be irt táblázatot, és kártyákat*/
 //tablazatOsszealit();
 
+
+init(macskaLISTA);
+adatokListaba(macskaLISTA);
+
 export function init(lista) {
   tablazatOsszealit(kosarLista);
   let txt = kartyaOsszeallit(lista);
